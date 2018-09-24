@@ -1,0 +1,48 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio-category</taxonomy>
+    <taxonomy translate="1">portfolio-tags</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_pofo-child">
+      <key name="blogname"/>
+      <key name="blogdescription"/>
+      <key name="pofo_page_not_found_title"/>
+      <key name="pofo_page_not_found_subtitle"/>
+      <key name="pofo_page_not_found_content"/>
+      <key name="pofo_page_not_found_button_text"/>
+      <key name="pofo_portfolio_url_slug"/>
+      <key name="pofo_portfolio_cat_url_slug"/>
+      <key name="pofo_portfolio_tags_url_slug"/>
+      <key name="pofo_search_placeholder_text"/>
+      <key name="pofo_related_posts_title"/>
+      <key name="pofo_button_text_archive"/>
+      <key name="pofo_single_portfolio_share_title"/>
+      <key name="pofo_related_single_portfolio_title"/>
+      <key name="pofo_related_single_portfolio_content"/>
+      <key name="pofo_portfolio_navigation_nextlink_text"/>
+      <key name="pofo_portfolio_navigation_priviouslink_text"/>
+      <key name="pofo_default_post_title_default"/>
+      <key name="pofo_button_text_default"/>
+      <key name="pofo_button_text_sticky"/>
+      <key name="pofo_page_title_subtitle"/>
+      <key name="pofo_single_post_title_subtitle"/>
+      <key name="pofo_archive_title_subtitle"/>
+      <key name="pofo_default_title_subtitle"/>
+      <key name="pofo_single_portfolio_title_subtitle"/>
+      <key name="pofo_single_portfolio_breadcrumb_text"/>
+      <key name="pofo_portfolio_archive_title_subtitle"/>
+      <key name="pofo_portfolio_archive_title_breadcrumb_portfolio_text"/>
+      <key name="pofo_footer_wrapper_text"/>
+      <key name="pofo_before_social_icons_text"/>
+      <key name="pofo_footer_bottom_left_text"/>
+      <key name="pofo_footer_bottom_right_text"/>
+      <key name="pofo_header_copyright_text"/>
+      <key name="pofo_author_box_button_title"/>
+      <key name="pofo_portfolio_archive_page_title_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>

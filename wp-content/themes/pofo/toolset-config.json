@@ -1,0 +1,508 @@
+{
+"data" : [
+	{
+	    "name": "pofo_hide_scroll_to_top",
+	    "type": [ "customizer" ],
+	    "group": "General Theme Options",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Scroll to Top",
+	        "type": "select",
+	        "values": [
+	            {
+	                "text": "On",
+	                "value": "1"
+	            },
+	            {
+	                "text": "Off",
+	                "value": "0"
+	            }
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_search_placeholder_text",
+	    "type": [ "customizer" ],
+	    "group": "General Theme Options",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Search Placeholder Text",
+	        "type": "text"
+	    },
+	    "default_value": "Enter your keywords..."
+	},
+	{
+	    "name": "pofo_disable_header",
+	    "type": [ "customizer" ],
+	    "group": "Header Style and Data",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Header",
+	        "type": "select",
+	        "values": [
+	            {
+	                "text": "On",
+	                "value": "1"
+	            },
+	            {
+	                "text": "Off",
+	                "value": "0"
+	            }
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_header_type",
+	    "type": [ "customizer" ],
+	    "group": "Header Style and Data",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Header Style",
+	        "type": "select",
+	        "values": [
+	            {
+	                "text": "Standard",
+	                "value": "headertype1"
+	            },
+	            {
+	                "text": "Hamburger",
+	                "value": "headertype2"
+	            },
+							{
+	                "text": "Left Classic",
+	                "value": "headertype3"
+	            },
+	            {
+	                "text": "Left Modern",
+	                "value": "headertype4"
+	            }
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_header_container_style",
+	    "type": [ "customizer" ],
+	    "group": "Header Style and Data",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Container Style",
+	        "type": "select",
+	        "values": [
+	            {
+	                "text": "Fluid / Full Width",
+	                "value": "container-fluid"
+	            },
+	            {
+	                "text": "Fixed",
+	                "value": "container"
+	            }
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+			"name": "pofo_header_sidebar",
+			"type": [ "customizer" ],
+			"group": "Header Style and Data",
+			"target": [ "archive", "single" ],
+					 "global_key": "theme_mods_pofo",
+			"gui": {
+					"display_name": "Select Sidebar",
+					"type": "select",
+					"values": [
+							{
+									"text": "Main Sidebar",
+									"value": "sidebar-1"
+							},
+							{
+									"text": "Mini Header Left Sidebar",
+									"value": "mini-header-left-sidebar"
+							},
+							{
+									"text": "Mini Header Right Sidebar",
+									"value": "mini-header-right-sidebar"
+							},
+							{
+									"text": "Menu Icon",
+									"value": "menu-icon-1"
+							},
+							{
+									"text": "Header Button",
+									"value": "header-sidebar"
+							},
+							{
+									"text": "Slide Menu Sidebar",
+									"value": "slide-menu-sidebar"
+							},
+							{
+									"text": "Mega Menu Sidebar",
+									"value": "mega-menu-sidebar"
+							},
+							{
+									"text": "Hamburger Menu Sidebar",
+									"value": "hamburger-menu-sidebar"
+							},
+							{
+									"text": "Footer Sidebar 1",
+									"value": "footer-sidebar-1"
+							},
+							{
+									"text": "Footer Sidebar 2",
+									"value": "footer-sidebar-2"
+							},
+							{
+									"text": "Footer Sidebar 3",
+									"value": "footer-sidebar-3"
+							},
+							{
+									"text": "Footer Sidebar 4",
+									"value": "footer-sidebar-4"
+							},
+							{
+									"text": "Footer Sidebar 5",
+									"value": "footer-sidebar-5"
+							},
+							{
+									"text": "Footer Sidebar 6",
+									"value": "footer-sidebar-6"
+							},
+							{
+									"text": "Footer Sidebar 7",
+									"value": "footer-sidebar-7"
+							},
+							{
+									"text": "Footer Sidebar 8",
+									"value": "footer-sidebar-8"
+							},
+							{
+									"text": "Footer Sidebar 9",
+									"value": "footer-sidebar-9"
+							},
+							{
+									"text": "Footer Sidebar 10",
+									"value": "footer-sidebar-10"
+							},
+							{
+									"text": "Footer Sidebar 11",
+									"value": "footer-sidebar-11"
+							},
+							{
+									"text": "Footer Sidebar 12",
+									"value": "footer-sidebar-12"
+							},
+							{
+									"text": "Footer Sidebar 13",
+									"value": "footer-sidebar-13"
+							},
+							{
+									"text": "Footer Sidebar 14",
+									"value": "footer-sidebar-14"
+							},
+							{
+									"text": "Footer Sidebar 15",
+									"value": "footer-sidebar-15"
+							},
+							{
+									"text": "Footer Sidebar 16",
+									"value": "footer-sidebar-16"
+							},
+							{
+									"text": "Footer Sidebar 17",
+									"value": "footer-sidebar-17"
+							},
+							{
+									"text": "Footer Sidebar 18",
+									"value": "footer-sidebar-18"
+							},
+							{
+									"text": "Footer Sidebar 19",
+									"value": "footer-sidebar-19"
+							},
+							{
+									"text": "Footer Sidebar 20",
+									"value": "footer-sidebar-20"
+							},
+							{
+									"text": "Footer Sidebar 21",
+									"value": "footer-sidebar-21"
+							},
+							{
+									"text": "Footer Sidebar 22",
+									"value": "footer-sidebar-22"
+							}
+					]
+			},
+			"default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_post_layout_style",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Single)",
+	    "target": [ "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Post Style",
+	        "type": "select",
+	        "values": [
+	            {
+	                "text": "Single Post Layout Style 1",
+	                "value": "post-layout-style-1"
+	            },
+	            {
+	                "text": "Single Post Layout Style 2",
+	                "value": "post-layout-style-2"
+	            },
+							{
+	                "text": "Single Post Layout Style 3",
+	                "value": "post-layout-style-3"
+	            }
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_hide_date",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Single)",
+	    "target": [ "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Date",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_hide_author",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Single)",
+	    "target": [ "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Author",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_hide_category",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Single)",
+	    "target": [ "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Category",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_hide_comment",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Single)",
+	    "target": [ "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Comment",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_show_post_title_archive",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Archive)",
+	    "target": [ "archive" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Post Title",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_show_post_author_archive",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Archive)",
+	    "target": [ "archive" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Post Author",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_show_post_date_archive",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Archive)",
+	    "target": [ "archive" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Post Date",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_show_category_archive",
+	    "type": [ "customizer" ],
+	    "group": "Layout and Content (Post Archive)",
+	    "target": [ "archive" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Post Categories",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_disable_footer_wrapper",
+	    "type": [ "customizer" ],
+	    "group": "Footer",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Footer Wrapper",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "On",
+									"value": "1"
+							},
+							{
+									"text": "Off",
+									"value": "0"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_footer_wrapper_style",
+	    "type": [ "customizer" ],
+	    "group": "Footer",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Footer Wrapper Style",
+	        "type": "select",
+	        "values": [
+							{
+									"text": "Style 1",
+									"value": "footer-wrapper-style-1"
+							},
+							{
+									"text": "Style 2",
+									"value": "footer-wrapper-style-2"
+							},
+							{
+									"text": "Style 3",
+									"value": "footer-wrapper-style-3"
+							}
+	        ]
+	    },
+	    "default_value": "toolset_use_theme_setting"
+	},
+	{
+	    "name": "pofo_footer_wrapper_text",
+	    "type": [ "customizer" ],
+	    "group": "Footer",
+	    "target": [ "archive", "single" ],
+           "global_key": "theme_mods_pofo",
+	    "gui": {
+	        "display_name": "Footer Wrapper Text",
+	        "type": "text"
+	    },
+	    "default_value": "Enter text..."
+	}
+]
+}
